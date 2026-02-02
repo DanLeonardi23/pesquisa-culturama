@@ -33,9 +33,9 @@
                 <label for="userImage">Upload de foto:</label>
                 <input type="file" accept="image/*" name="userImage">
                 <br><br>
-        </fieldset>
+            </fieldset>
 
-        <fieldset> 
+            <fieldset> 
                 <legend>Perfil</legend>
                 <p>Gênero:</p>
 
@@ -91,14 +91,32 @@
                     <option value="SP">São Paulo</option>
                     <option value="SE">Sergipe</option>
                     <option value="TO">Tocantins</option>
-
                 </select>
                 <br><br>
 
                 <label for="userCity">Cidade:</label>
                 <input type="text" name="userCity" required>
 
+            </fieldset>
 
+            <fieldset>
+                <legend>Hábitos</legend>
+                <p>Redes Sociais</p>
+                <input type="checkbox" name="social" value="instagram">
+                <label for="social">Instagram</label>
+                <br>
+                <input type="checkbox" name="social" value="facebook">
+                <label for="social">Facebook</label>
+                <br>
+                <input type="checkbox" name="social" value="linkedin">
+                <label for="social">LinkedIn</label>
+                <br>
+                <input type="checkbox" name="social" value="x">
+                <label for="social">X (Twitter)</label>
+                <br>
+                
+            </fieldset>
+            
             <button type="submit">Enviar</button>
         </form>
     </section>
