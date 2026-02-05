@@ -107,7 +107,7 @@ button[type="submit"]:hover{
 }
 
 button[type="reset"]:hover{
-    background-color: orangered;
+    background-color: rgb(224, 73, 19);
     color: #fff;
 }
 
